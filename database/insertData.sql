@@ -177,7 +177,7 @@ DELETE FROM layer;
 
 -- add layer 1001
 INSERT INTO layer (layer_id, f_table_name, name, description, source_description, created_at) VALUES
-(1001, 'layer_1001', 'Addresses in 1869', '', '', '2017-01-01');
+(1001, 'layer_1001', 'Addresses in 1869', 'Test Description', 'Test Source Description', '2017-01-01');
 
 -- add reference
 INSERT INTO reference (reference_id, description, user_id_creator) VALUES (1001,
