@@ -278,12 +278,13 @@ export default {
         },
         "addLayer": {
             "title": "Adicionar e remover camadas",
-            "input": "Pesquise por tema, camada ou autor:",
+            "input": "Search by theme, layer, author or creation date (example: 31/12/2001):",
             "close": "Fechar",
             "box": {
                 "lbTitle": "TÍTULO",
                 "lbAuthors": "AUTORES",
                 "lbKeywods": "PALAVRAS-CHAVE",
+                "lbDate": "CREATION DATE",
                 "lbDescription": "DESCRIÇÃO",
                 "lbShowMore": "Mostrar mais",
                 "lbShowLess": "Mostrar menos",
