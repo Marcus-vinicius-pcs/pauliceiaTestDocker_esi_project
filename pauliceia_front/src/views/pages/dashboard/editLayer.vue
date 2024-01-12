@@ -27,7 +27,7 @@
                         <md-icon class="icon">error_outline</md-icon>
                       </button>
                     </el-popover>
-                    <input class="form-control" id="inputName" disabled>
+                    <input class="form-control" id="inputName">
                   </div>
                   <!-- select keywords -->
                   <div class="form-group col-md-6">
@@ -291,6 +291,15 @@
 
         if ((this.startDate === "" || this.endDate === "") || (this.startDate === null || this.endDate === null)) {
           this._msgError("O preenchimento das datas é obrigatório!")
+          return;
+        }
+        
+        // Convertendo a string para um objeto de data
+        var endDateObject = new Date(this.endDate);
+        var currentDate = new Date();
+
+        if(endDateObject.getFullYear() > currentDate.getFullYear()){
+          this._msgError(`O ano da data final da camada deve ser no máximo ${currentDate.getFullYear()}!`);
           return;
         }
 

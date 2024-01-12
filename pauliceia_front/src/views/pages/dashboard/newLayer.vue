@@ -605,13 +605,18 @@
 
                 this._showErrorMessages(cause)
               })
+
+
             }, cause => {
               // error `.post('/api/layer/create'`
 
               this.finished = 1
               this.loading.close();
 
-              this._showErrorMessages(cause)
+              if(cause.response.status === 409)
+                this._msgError("Já existe uma camada com esse nome, por favor, escolha outro!")
+              else
+                this._msgError("Erro ao criar a camada, confira as informações inseridas. Caso o erro persista entre em contato com os administradores da plataforma!")
             })
 
           } catch (error) {
@@ -719,7 +724,6 @@
           vm.clearData()
         }
         catch(error) {
-          console.log(error)
           if(this.layer_id != null && this.layer_id !== undefined)
             await Dashboard.deleteLayer(this.layer_id)
 

@@ -1,0 +1,16 @@
+<layer>
+  <name>teste_limite_datas</name>
+  <id>LayerInfoImpl--230f56a4:18cfaf5f9cf:-7ffb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--43d8114d:18c25c5d0f3:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--230f56a4:18cfaf5f9cf:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-01-12 01:06:31.364 UTC</dateCreated>
+</layer>

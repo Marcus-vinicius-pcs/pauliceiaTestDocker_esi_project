@@ -1,0 +1,42 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--230f56a4:18cfaf5f9cf:-7ffc</id>
+  <name>teste_limite_datas</name>
+  <nativeName>teste_limite_datas</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-6a3a947f:18c03277ec0:-7ffb</id>
+  </namespace>
+  <title>teste_limite_datas</title>
+  <description>Description</description>
+  <keywords>
+    <string>teste_limite_datas</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:3857</srs>
+  <nativeBoundingBox>
+    <minx>-5192614.0</minx>
+    <maxx>-5189724.0</maxx>
+    <miny>-2700631.5</miny>
+    <maxy>-2696560.75</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-46.646045207330054</minx>
+    <maxx>-46.620083895619</maxx>
+    <miny>-23.566162265462108</miny>
+    <maxy>-23.532639642734633</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--48afb83b:18c0335ceb6:-7ffb</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
